@@ -16,6 +16,20 @@ export default {
           '"Noto Color Emoji"',
         ],
       },
+      colors: {
+        colourdle: {
+          red: "#FF0000",
+          orange: "#FFA500",
+          yellow: "#FFD700",
+          green: "#008000",
+          lightblue: "#87CEFA",
+          blue: "#0000FF",
+          purple: "#800080",
+          pink: "#EE82EE",
+          lightpink: "#FFC0CB",
+          darkred: "#A52A2A",
+        },
+      }
     },
   },
   plugins: [],
