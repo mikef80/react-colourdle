@@ -14,22 +14,19 @@ const Title = () => {
 
   const colours = Object.values(TitleColour);
 
-  const ColouredTitle = () => {
-    const title = "Colourdle!";
-    return (
-      <h1 className='text-4xl font-bold'>
-        {title.split("").map((letter, index) => {
-          return (
-            <span key={index} className={colours[index % colours.length]}>
-              {letter}
-            </span>
-          );
-        })}
-      </h1>
-    );
-  };
+  const title = "Colourdle!";
 
-  return <ColouredTitle />;
+  return (
+    <h1 className='text-4xl font-bold'>
+      {title.split("").map((letter, index) => {
+        return (
+          <span key={index} className={colours[index % colours.length]}>
+            {letter}
+          </span>
+        );
+      })}
+    </h1>
+  );
 };
 
 export default Title;
