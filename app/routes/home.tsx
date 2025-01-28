@@ -1,7 +1,7 @@
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
 import Title from "~/components/Title";
-
+import SwatchesGroup from "~/components/SwatchesGroup";
+import ColorGuessGrid from "~/components/ColourGuessGrid";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -14,7 +14,8 @@ export default function Home() {
   return (
     <>
       <Title />
-      
+      <SwatchesGroup />
+      <ColorGuessGrid />
     </>
   );
 }

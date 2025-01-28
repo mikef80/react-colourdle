@@ -17,7 +17,7 @@ const Title = () => {
   const title = "Colourdle!";
 
   return (
-    <h1 className='text-4xl font-bold'>
+    <h1 className='text-4xl font-bold mb-10'>
       {title.split("").map((letter, index) => {
         return (
           <span key={index} className={colours[index % colours.length]}>
