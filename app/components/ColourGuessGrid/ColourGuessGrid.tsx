@@ -18,7 +18,7 @@ const ColorGuessGrid = () => {
               key={colIndex}
               type='text'
               maxLength={1}
-              className={`w-10 h-10 text-center text-lg border border-gray-400 rounded ${
+              className={`w-10 h-10 text-center text-lg border border-gray-400 rounded-lg text-black ${
                 colIndex < 3 ? "bg-red-200" : colIndex < 6 ? "bg-green-200" : "bg-blue-200"
               }`}
               value={value}
